@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(700.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+
+body {background-color: #f7f7f7;font-size: 100%;font-family: 'Lato', sans-serif;margin: 0px;}
+div, textarea, input {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.container {max-width: 999px;background-color: #fff; margin-top: 2em;margin: 0 auto;margin-bottom: 65px;-webkit-box-shadow: 1px 0px 14px 1px rgba(0,0,0,0.2);border-radius: 10px;}
+.row.header {padding: 1.5em 2.5em;background-color: #2C87E8;color: #fff;box-shadow: 0px 1px 6px 1px rgba(176,176,176,1);}
+.pull-right {float: right;font-weight: 600;}
+h1 {text-align: center;font-family: 'Lato', sans-serif;color: #CCE2F9;font-weight: 500;font-size: 36px;}
+h2 {text-align: center;font-size: 30px;color: #4A5960;}
+.brandlogo {position: absolute;margin-top: 13%;margin-left: 22%;}
+.brandlogo p {margin-left: -80%; text-align: center;letter-spacing: 0.5px;color: #4a5960;margin-top: 20%;}
+.signin-click a {margin-left: 37%;margin-top: 10%;}
+.signin-click a:hover {transform: translateY(4px);transition: all .5s;}
+.g-button {min-width: 46px;text-align: center;color: #ffffff;font-size: 15px;padding: 5px 13px;line-height: 28px;text-decoration: none;letter-spacing: 0.8px;font-weight: 600;}
+.g-button-submit {text-shadow: 0 1px rgba(0,0,0,0.1);background-color: #4A5960;border: 1px solid #4A5960;background-image: -webkit-gradient(linear,left top,left bottom,from(#4A5960),to(#4A5960));box-shadow: 0px 1px 6px 1px rgba(176,176,176,1);border-radius: 2px;}
+.side-content{position: absolute;width: 40%;margin-left: 53px;text-align: center;margin-top: 20%;}
+.side-content h2{font-family: 'Lato', sans-serif;color: #039be5;font-size: 36px;font-weight: 400;margin-bottom: 15px;}
+.side-content p {font-family: 'Lato', sans-serif;color: #455a64;}
+.side-content img {text-align: center;margin-left: 10%;margin-top: 180%;}
+.account-img a span{display:block;color: #4a5960;}
+.account-img a {width: 20%;float: left;}
+.account-img p {margin-top: 5%}
+.form_head {background: #039be5;padding: 5px 0px 5px 0px;box-shadow: 0px 1px 6px 1px rgba(176,176,176,1);margin-top: 1%;border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.aidbs-birth input {width:76px;margin-left: 12px;}
+.aidbs-state input {width:76px;margin-left: 12px;}
+.aidbs-country select {width: 100%; border: none; border-bottom: 1px solid #4a5960;padding: 6px 0px;font-family: inherit;color: rgb(117, 117, 117);font-size: 15px;outline: 0}
+.aidbs-name input {width:154px;}
+.aidbs-name-left input {margin-left: 11px;}
+.aidbs-birth select {margin: 0 0 -4.5em 0;border: none; border-bottom: 1px solid #4a5960;padding: 6px 0px;font-family: inherit;color: rgb(117, 117, 117);font-size: 16px;outline: 0;width: 32%;}
+.aidbs-gender select {width:100%;border: none; border-bottom: 1px solid #4a5960;margin: 0.5em 0px 0.5em 0;padding: 5px 0px;font-family: inherit;color: rgb(117, 117, 117);font-size: 16px;outline: 0;}
+.aidbs-term  p {text-align: center;color: #455a64;font-size: 13px;}
+h3 {font-family: 'Lato', sans-serif;font-weight: 400;font-size: 1.25em;margin: 1em 0 0.4em 0;}
+.btn {box-sizing: border-box;border: none;color: #fff;cursor: pointer;display: inline-block;height: auto;line-height: 45px;text-decoration: none;text-transform: uppercase;text-align: center;font-size: 18px;font-weight: 600;padding: 3px 48px;margin: 1px 0px;transition: box-shadow .3s,transform .3s;overflow: hidden;box-shadow: 0px 1px 6px 1px rgba(176,176,176,1);margin-top: 25px;border-radius: 2px;}  
+.btn:hover {background-color: #bfbfbf;}
+.btn.btn-submit {background-color: #4a5960;letter-spacing: 1px;}
+.btn.btn-submit:hover {background-color: #4a5960;transform: translateY(-4px); transition: all .5s;}
+form {max-width: 100%;display: block;}
+form ul {margin: 0;padding: 25px;list-style: none;margin-left:630px;box-shadow: 0px 0px 2px 0px rgba(176,176,176,1);border-bottom-right-radius: 10px;}
+form ul li {margin: 0 0 0.25em 0;clear: both;display: inline-block;width: 100%;}
+form ul li:last-child {margin: 0;background-color: #FAFAFA !important;margin-top: 2.4em;}
+form ul li p {margin: 0;padding: 0;float: left;}
+form ul li p.right {float: right;}
+form ul li .divider {margin: 0.5em 0 0.5em 0;border: 0;height: 1px;width: 100%;display: block;background-color: #4f6fad;background-image: linear-gradient(to right, #4CAF50, #03A9F4);}
+form ul li .req {color: #4CAF50;}
+form label {display: block; margin: 10px 0 10px 0; color: #5F7D8C!important; font-size: 16px; font-weight: 600;font-family: 'Lato',sans-serif;}
+form input {margin: 0.5em 0px 0.5em 0; border: none; border-bottom: 1px solid #4a5960; padding: 5px 4px; color: #000000; font-family: inherit; font-size: 15px; width: 319px;outline: 0;}
+form textarea {border: 1px solid #ccc;padding: 6px 10px;width: 100%;color: #455a64;margin-top: 1em;}
+form small {color: #4f6fad;margin: 0 0 0 0.5em;}
+#email_status {font-size: 14px;color: #bf3232;}
+input:focus, select:focus  {border-bottom: 2px solid #de1069; transition: border-bottom-color 0.25s linear 0.0s;}
+.btn.btn-submit:focus {border-bottom: none; box-shadow: 0 0 5px #de1069;}
+footer {background-color: #303841; padding-top: 5px; padding-bottom: 5px; color: white; margin-top: 4em; bottom: 0; font-size: 10pt; width: 100%;}
+footer a {color: white;text-decoration: none;}
+.footer-right {float: right;list-style: none;padding-right: 30px;}
+
+@media only screen and (max-width: 768px) {.pull-right {float: none;}input, .intl-tel-input {width: 100% !important;}label {width: 100%;display: inline-block;}li, p {width: 100%;}input.btn {margin: 40px 0 0.5em;}h1 {font-size: 1.55em;color: #CCE2F9;}h3 {font-size: 1.125em;}li small {display: none;}footer ul {font-size: 17px;}.signin-button a {margin-right: 15px;} .logo {margin-left: 15px;}.form_head {margin-top: 0px;}}
+@media screen and (max-width: 768px) {form ul {margin:0px auto;box-shadow: 0px 0px 1px 0px rgba(176,176,176,1);background-color: rgba(197, 237, 255, 0.06);}}
+@media screen and (max-width: 768px) {h2, .side-content, .brandlogo {display: none;}.aidbs-name input{width:inherit;}.aidbs-name-left input {margin-left:inherit;}.aidbs-birth input {margin-left: 12px;}.aidbs-gender select {width:inherit;font-size: 16px;width: 100%;background: white;}.aidbs-header-bar {padding:0;}.side-content{display: none;}.aidbs-birth select, .aidbs-country select {background: white;}}
+@media screen and (min-width: 1498px) {.brandlogo {margin-left: 19%;}.side-content {width: 36%;}}
+@media screen and (min-width: 1686px) {.brandlogo {margin-left: 15%;}.side-content {width: 30%;margin-left: 32px;}}
+@media screen and (min-width: 1730px) {.brandlogo {margin-left: 17%;}.side-content {width: 30%;margin-left: 55px;}}
+@media screen and (min-width: 2023px) {.brandlogo {margin-left: 14%;}.side-content {width: 25%; margin-left: 76px;}}
+@media screen and (min-width: 2698px) {.brandlogo {margin-left: 12%;margin-top: 9%;}.side-content {width: 20%; margin-top:16%;}}
